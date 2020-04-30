@@ -1,6 +1,9 @@
-- name: Run a script using an executable in a system path
+---
+- name: demo
   hosts:
     - all
-  script: hello.py
-  args:
-    executable: python
+  tasks:
+    - name: Run a script using an executable in a system path
+      script: hello.py
+      args:
+        executable: python
