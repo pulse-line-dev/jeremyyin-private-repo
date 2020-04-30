@@ -1,0 +1,4 @@
+- name: Run a script using an executable in a system path
+  script: hello.py
+  args:
+    executable: python3
